@@ -2,12 +2,12 @@
 
 A real-time N-body gravitational simulation of the solar system with 9 planets and 200 asteroids using efficient Barnes-Hut quad-tree spatial optimization.
 
-<div align="center">
-  <div style="display: inline-block; margin-right: 20px; vertical-align: top;">
+<div align="center" style="display: flex; justify-content: center; gap: 40px;">
+  <div style="text-align: center;">
     <img src="img/solar_system.jpg" alt="Solar System Overview" height="400"/>
     <p><b>Solar System</b></p>
   </div>
-  <div style="display: inline-block; margin-left: 20px; vertical-align: top;">
+  <div style="text-align: center;">
     <img src="img/barnes-hut.jpg" alt="Barnes-Hut Visualization" height="400"/>
     <p><b>Barnes-Hut</b></p>
   </div>
