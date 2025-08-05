@@ -39,23 +39,25 @@ This simulation demonstrates advanced computational physics with:
 
 The simulation uses a sophisticated quad-tree based approach:
 
+```
 main.c  
 ├── Data Structures  
-│   ├── CelestialBody - Universal body structure for quad-tree  
-│   ├── Planet - Solar system planets with orbital data  
-│   └── QuadTreeNode - Spatial partitioning for efficient calculations  
+│   ├── CelestialBody                    # Universal body structure for quad-tree  
+│   ├── Planet                           # Solar system planets with orbital data  
+│   └── QuadTreeNode                     # Spatial partitioning for efficient calculations  
 ├── Barnes-Hut Implementation  
-│   ├── create_quadtree() - Spatial tree construction  
-│   ├── insert_body() - Dynamic body insertion  
-│   ├── calculate_center_of_mass() - Mass distribution calculation  
-│   └── calculate_force_from_quadtree() - O(N log N) force computation  
+│   ├── create_quadtree()                # Spatial tree construction  
+│   ├── insert_body()                    # Dynamic body insertion  
+│   ├── calculate_center_of_mass()       # Mass distribution calculation  
+│   └── calculate_force_from_quadtree()  # O(N log N) force computation  
 ├── Physics Engine  
-│   ├── update_body() - Numerical integration (Euler method)  
-│   └── update_simulation_barnes_hut() - Main simulation loop  
+│   ├── update_body()                    # Numerical integration (Euler method)  
+│   └── update_simulation_barnes_hut()   # Main simulation loop  
 └── Rendering System  
-    ├── render_bodies() - Planet and asteroid visualization  
-    ├── DrawButton() - Interactive UI elements  
-    └── trajectory rendering - Orbital path display  
+    ├── render_bodies()                  # Planet and asteroid visualization  
+    ├── DrawButton()                     # Interactive UI elements  
+    └── trajectory rendering             # Orbital path display  
+```
 
 ## 🛠️ Technologies
 
