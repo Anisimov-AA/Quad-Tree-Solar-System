@@ -7,11 +7,17 @@ A real-time N-body gravitational simulation of the solar system with 9 planets a
     <tr>
       <td style="text-align: center; padding: 10px;">
         <img src="img/solar_system.jpg" alt="Solar System Overview" height="400"/>
-        <br><b>Solar System</b>
       </td>
       <td style="text-align: center; padding: 10px;">
         <img src="img/barnes-hut.jpg" alt="Barnes-Hut Visualization" height="400"/>
-        <br><b>Barnes-Hut</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 5px;">
+        <b>Solar System</b>
+      </td>
+      <td style="text-align: center; padding: 5px;">
+        <b>Barnes-Hut</b>
       </td>
     </tr>
   </table>
